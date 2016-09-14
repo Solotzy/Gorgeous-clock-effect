@@ -91,7 +91,7 @@ function updateBalls() {
 
         if(balls[i].y >= WINDOW_HEIGHT-RADIUS){
             balls[i].y = WINDOW_HEIGHT-RADIUS;
-            balls[i].vy = -balls[i].vy*0.5;
+            balls[i].vy = -balls[i].vy*0.7;
         }
     }
 
